@@ -3,7 +3,7 @@
     <string name="Salary_intro">Aplikasi berfungsi untuk menghitung jumlah gaji setiap pekerja</string>
     <string name="jumlah_gaji">Gaji</string>
     <string name="jenis_jabatan">Jabatan</string>
-    <string name="Manager">Manager</string>
+    <string name="manager">Manager</string>
     <string name="employer">employer</string>
     <string name="hitung">Hitung</string>
     <string name="jumlah_jam">Jam</string>

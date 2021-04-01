@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">SalaryCounter</string>
     <string name="Salary_intro">Aplikasi berfungsi untuk menghitung jumlah gaji setiap pekerja</string>
-    <string name="jumlah_gaji">Jumlah Gaji</string>
-    <string name="jenis_kelamin">Jabatan</string>
-    <string name="pria">Manager</string>
-    <string name="wanita">employer</string>
+    <string name="jumlah_gaji">Gaji</string>
+    <string name="jenis_jabatan">Jabatan</string>
+    <string name="Manager">Manager</string>
+    <string name="employer">employer</string>
     <string name="hitung">Hitung</string>
-    <string name="jumlah_jam">Jumlah Jam</string>
-    <string name="bmi_x">BMI: %1$.2f</string>
+    <string name="jumlah_jam">Jam</string>
+    <string name="bmi_x">jumlah gaji: %1$.2f</string>
     <string name="kurang">kurang</string>
     <string name="pas">pas</string>
     <string name="lebih">lebih</string>
     <string name="kategori_x">Kategori: %1$s</string>
-    <string name="gaji_invalid">Berat tidak boleh kosong.</string>
-    <string name="jam_invalid">Tinggi tidak boleh kosong.</string>
-    <string name="gender_invalid">Pilih jenis kelamin.</string>
+    <string name="gaji_invalid">gaji tidak boleh kosong.</string>
+    <string name="jam_invalid">jam tidak boleh kosong.</string>
+    <string name="jabatan_invalid">Pilih jenis jabatan.</string>
 </resources>

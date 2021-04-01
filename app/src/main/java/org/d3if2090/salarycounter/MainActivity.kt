@@ -30,10 +30,10 @@ class MainActivity : AppCompatActivity() {
         val jam = jam.toFloat()
         val selectedId = binding.radioGroup.checkedRadioButtonId
         if (selectedId == -1) {
-            Toast.makeText(this, R.string.gender_invalid, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.jabatan_invalid, Toast.LENGTH_LONG).show()
             return
         }
-        val isManager = selectedId == R.id.priaRadioButton
+        val isManager = selectedId == R.id.managerRadioButton
         val gaji = hitungGaji().toFloat() * jam
 
 

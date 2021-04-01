@@ -78,13 +78,13 @@
         app:layout_constraintStart_toStartOf="@+id/jamEditText"
         app:layout_constraintTop_toBottomOf="@+id/jamEditText">
         <RadioButton
-            android:id="@+id/priaRadioButton"
+            android:id="@+id/managerRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/pria" />
         <RadioButton
-            android:id="@+id/wanitaRadioButton"
+            android:id="@+id/employerRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -128,7 +128,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gajiTextView"
-        tools:text="Kategori: Ideal" />
+        tools:text="Kategori: pas" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

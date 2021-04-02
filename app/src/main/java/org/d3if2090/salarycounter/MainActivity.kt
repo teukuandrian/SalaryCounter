@@ -22,33 +22,33 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.gaji_invalid, Toast.LENGTH_LONG).show()
             return
         }
-        val j = binding.jamEditText.text.toString()
+        val jam = binding.jamEditText.text.toString()
         if (TextUtils.isEmpty(jam)) {
             Toast.makeText(this, R.string.jam_invalid, Toast.LENGTH_LONG).show()
             return
         }
-        val jam = jam.toFloat()
+        val jumlahGaji = jam.toFloat()
         val selectedId = binding.radioGroup.checkedRadioButtonId
         if (selectedId == -1) {
             Toast.makeText(this, R.string.jabatan_invalid, Toast.LENGTH_LONG).show()
             return
         }
         val isManager = selectedId == R.id.managerRadioButton
-        val gaji = hitungGaji().toFloat() * jam
+        val gaji = hitungGaji()
 
 
     }
         private fun getKategori(jumlahGaji: Float, isManager: Boolean): String {
             val stringRes = if (isManager) {
                 when {
-                    jumlahGaji < 20.5 -> R.string.kurang
-                    jumlahGaji >= 27.0 -> R.string.lebih
+                    jumlahGaji < 4500000 -> R.string.kurang
+                    jumlahGaji > 4500000 -> R.string.lebih
                     else -> R.string.pas
                 }
             } else {
                 when {
-                    jumlahGaji < 18.5 -> R.string.kurang
-                    jumlahGaji >= 25.0 -> R.string.lebih
+                    jumlahGaji < 3500000 -> R.string.kurang
+                    jumlahGaji >= 3500000  -> R.string.lebih
                     else -> R.string.pas
                 }
             }
